@@ -3,7 +3,7 @@ import React, { useContext } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { PokemonContext } from '../context/PokemonContext';
 import logo from '../assets/logo.png';
-import { FaArrowLeft } from 'react-icons/fa'; // Importe o ícone de seta
+//import { FaArrowLeft } from 'react-icons/fa'; // Importe o ícone de seta
 import styles from '../styles/PokemonDetails.module.css'; // Importe o CSS para estilização
 
 const PokemonDetails = () => {
